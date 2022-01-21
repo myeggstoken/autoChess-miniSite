@@ -1,0 +1,221 @@
+body,
+html {
+    font-family: "Open Sans", sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    color: #777;
+    font-weight: 400;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+h2,
+h3,
+h4 {
+    font-family: "Raleway", sans-serif;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    font-weight: 800;
+    font-size: 36px;
+    color: #333;
+}
+
+p.intro {
+    margin: 12px 0 0;
+    line-height: 24px;
+}
+
+a {
+    color: white;
+    font-weight: 400;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #608dfd;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+ul,
+ol {
+    padding: 0;
+    webkit-padding: 0;
+    moz-padding: 0;
+    font-size: 45px;
+}
+
+hr {
+    height: 2px;
+    width: 70px;
+    text-align: center;
+    position: relative;
+    background: #1e7a46;
+    margin-bottom: 20px;
+    border: 0;
+}
+
+.btn-custom {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #5ca9fb;
+    background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+    padding: 14px 34px;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 25px;
+    transition: all 0.5s linear;
+    border: 0;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom.active {
+    color: #fff;
+    background-image: none;
+    background-color: #6372ff;
+}
+
+.btn:active,
+.btn.active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+a:focus,
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;
+    outline-offset: none;
+}
+
+.inputArea {
+    display: none;
+    align-items: center;
+}
+
+/* Header Section */
+/*#header {*/
+/*    height: 100vh;*/
+/*}*/
+
+.intro {
+    display: table;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    background: url(../img/intro-bg.jpg) center center no-repeat;
+    background-color: #e5e5e5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro .overlay {
+    background: rgba(0, 0, 0, 0.2);
+    height: 100%;
+}
+
+.logoArea {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 8%;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+    max-height: 59vh;
+}
+
+.intro h1 {
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    font-size: 59px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: -5px;
+    padding-bottom: 5px;
+}
+
+.intro h1 span {
+    font-weight: 800;
+    color: #5ca9fb;
+}
+
+.intro p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+header .intro-text {
+    text-align: center;
+    padding: 20px;
+}
+
+.btnArea{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social {
+    /*border-top: 1px solid rgba(255, 255, 255, 0.15);*/
+    padding-top: 20px;
+    text-align: center;
+}
+
+.social ul li {
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+.social i.fa {
+    font-size: 22px;
+    width: 48px;
+    height: 48px;
+    padding: 12px 0;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.social i.fa:hover {
+    color: #608dfd;
+    background: #fff;
+}
+
+
+/*@media (max-width: 768px) {*/
+/*    #about img {*/
+/*        margin: 50px 0;*/
+/*    }*/
+/*}*/
