@@ -15,28 +15,10 @@ h4 {
     font-family: "Raleway", sans-serif;
 }
 
-h2 {
-    text-transform: uppercase;
-    margin: 0 0 20px;
-    font-weight: 800;
-    font-size: 36px;
-    color: #333;
-}
-
-p.intro {
-    margin: 12px 0 0;
-    line-height: 24px;
-}
-
-a {
-    color: white;
-    font-weight: 400;
-}
-
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #608dfd;
+    color: white;
 }
 
 ul,
@@ -62,54 +44,28 @@ hr {
     border: 0;
 }
 
-.btn-custom {
-    font-family: "Raleway", sans-serif;
+h2 {
     text-transform: uppercase;
-    color: #fff;
-    background-color: #5ca9fb;
-    background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
-    padding: 14px 34px;
-    letter-spacing: 1px;
-    margin: 0;
-    font-size: 15px;
-    font-weight: 500;
-    border-radius: 25px;
-    transition: all 0.5s linear;
-    border: 0;
+    margin: 0 0 20px;
+    font-weight: 800;
+    font-size: 36px;
+    color: #333;
 }
 
-.btn-custom:hover,
-.btn-custom:focus,
-.btn-custom.focus,
-.btn-custom:active,
-.btn-custom.active {
-    color: #fff;
-    background-image: none;
-    background-color: #6372ff;
+p.intro {
+    margin: 12px 0 0;
+    line-height: 24px;
 }
 
-.btn:active,
-.btn.active {
-    background-image: none;
-    outline: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-a:focus,
-.btn:focus,
-.btn:active:focus,
-.btn.active:focus,
-.btn.focus,
-.btn:active.focus,
-.btn.active.focus {
-    outline: none;
-    outline-offset: none;
+a {
+    color: white;
+    font-weight: 400;
 }
 
 .inputArea {
-    display: none;
     align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 /* Header Section */
@@ -122,7 +78,7 @@ a:focus,
     height: 100%;
     width: 100%;
     padding: 0;
-    background: url(../img/intro-bg.jpg) center center no-repeat;
+    background: url(../img/minisite_bg.png) center center no-repeat;
     background-color: #e5e5e5;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -140,7 +96,6 @@ a:focus,
     height: auto;
     overflow: hidden;
     margin: auto;
-    padding-top: 8%;
 }
 
 .logo {
@@ -154,11 +109,9 @@ a:focus,
 .intro h1 {
     font-family: "Raleway", sans-serif;
     color: #fff;
-    font-size: 59px;
+    font-size: 50px;
     font-weight: 700;
-    text-transform: uppercase;
-    padding-top: -5px;
-    padding-bottom: 5px;
+    padding-bottom: 10%;
 }
 
 .intro h1 span {
@@ -181,10 +134,72 @@ header .intro-text {
 }
 
 .btnArea{
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.button {
+    background-color: #0F1F34;
+    border-radius: 4px;
+    color: white;
+    width: 274px;
+    height: 74px;
+    text-align: center;
+    text-decoration: none;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 35px;
+    cursor: pointer;
 }
+
+.button1 {
+    background-color: #EA9619;
+    border-radius: 4px;
+    color: white;
+    width: 274px;
+    height: 74px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: #EA9619;
+    border-radius: 4px;
+    color: white;
+    width: 274px;
+    height: 74px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+/*.button:hover, button1:hover, button2:hover {*/
+
+/*}*/
 
 .social {
     /*border-top: 1px solid rgba(255, 255, 255, 0.15);*/
